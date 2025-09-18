@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDAM Delta Tirta Sidoarjo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .water-wave-bg {
+        background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+        position: relative;
+        overflow: hidden;
+      }
+      .water-wave-bg::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 20%;
+        background: white;
+        border-radius: 100% 100% 0 0;
+        transform: scale(1.5);
+      }
+      .card-hover:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+          0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      }
+      .saving-tip-icon {
+        transition: all 0.3s ease;
+      }
+      .saving-tip:hover .saving-tip-icon {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body class="font-sans bg-gray-50">
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <div class="mr-2">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/303504ff-5bfd-427e-abc1-a8dc4077b518.png"
+              alt="Logo PDAM dengan simbol tetesan air berwarna biru dan tulisan PDAM"
+              class="h-12 w-12"
+            />
+          </div>
+          <h1 class="text-xl font-bold text-blue-800">
+            PDAM <span class="text-blue-600">Delta Tirta Sidoarjo</span>
+          </h1>
+        </div>
+        <nav class="hidden md:block">
+          <ul class="flex space-x-8">
+            <li>
+              <a
+                href="#profile"
+                class="text-gray-700 hover:text-blue-600 font-medium transition"
+                >Profil</a
+              >
+            </li>
+            <li>
+              <a
+                href="#tarif"
+                class="text-gray-700 hover:text-blue-600 font-medium transition"
+                >Tarif Air</a
+              >
+            </li>
+            <li>
+              <a
+                href="#tips"
+                class="text-gray-700 hover:text-blue-600 font-medium transition"
+                >Hemat Air</a
+              >
+            </li>
+            <li>
+              <a
+                href="#kontak"
+                class="text-gray-700 hover:text-blue-600 font-medium transition"
+                >Kontak</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button class="md:hidden text-gray-700">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <section class="water-wave-bg text-white pt-24 pb-32 relative">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">
+          Melayani dengan Hati, Menghadirkan Air Bersih
+        </h1>
+        <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+          PDAM Delta Tirta Sidoarjo berkomitmen menyediakan air bersih
+          berkualitas untuk masyarakat Sidoarjo
+        </p>
+        <div class="flex justify-center space-x-4">
+          <a
+            href="#tarif"
+            class="bg-white text-blue-700 font-bold px-6 py-3 rounded-full hover:bg-gray-100 transition shadow-lg"
+            >Cek Tarif</a
+          >
+          <a
+            href="#kontak"
+            class="border-2 border-white text-white font-bold px-6 py-3 rounded-full hover:bg-white hover:bg-opacity-10 transition"
+            >Hubungi Kami</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="profile" class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">
+            Profil PDAM Delta Tirta Sidoarjo
+          </h2>
+          <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+        </div>
+
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+            <img
+              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3d213317-4204-4cc6-8f0c-83a54d72910a.png"
+              alt="Gedung kantor PDAM dengan karyawan sedang bekerja di ruang pengolahan air dengan teknologi modern"
+              class="rounded-lg shadow-xl w-full"
+            />
+          </div>
+          <div class="md:w-1/2">
+            <h3 class="text-2xl font-bold text-gray-800 mb-6">
+              Sejarah dan Visi Misi Kami
+            </h3>
+            <p class="text-gray-600 mb-4">
+              PDAM Delta Tirta Sidoarjo didirikan pada tahun 1980 (contoh,
+              sesuaikan tahun aslinya) sebagai bagian dari program pemerintah
+              untuk menyediakan air bersih bagi masyarakat Sidoarjo. Selama
+              lebih dari 40 tahun, kami telah mengembangkan sistem penyediaan
+              air minum yang andal dan berkelanjutan.
+            </p>
+            <p class="text-gray-600 mb-6">
+              Visi kami adalah menjadi penyedia layanan air minum terdepan di
+              Sidoarjo yang mampu memenuhi kebutuhan seluruh pelanggan dengan
+              kualitas terbaik. Misi kami adalah meningkatkan kualitas pelayanan
+              secara berkesinambungan, mengembangkan infrastruktur, dan
+              menerapkan teknologi tepat guna.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="bg-blue-50 p-4 rounded-lg">
+                <div class="flex items-center mb-2">
+                  <div class="bg-blue-100 p-2 rounded-full mr-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6 text-blue-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z"
+                      />
+                    </svg>
+                  </div>
+                  <h4 class="font-bold text-gray-800">Luas Jaringan</h4>
+                </div>
+                <p class="text-gray-600 text-sm">
+                  Melayani 18 kecamatan di Sidoarjo dengan jaringan pipa
+                  sepanjang lebih dari 1.000 km (contoh, sesuaikan data aslinya)
+                </p>
+              </div>
+              <div class="bg-blue-50 p-4 rounded-lg">
+                <div class="flex items-center mb-2">
+                  <div class="bg-blue-100 p-2 rounded-full mr-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6 text-blue-600"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
+                    </svg>
+                  </div>
+                  <h4 class="font-bold text-gray-800">Pelanggan</h4>
+                </div>
+                <p class="text-gray-600 text-sm">
+                  Melayani lebih dari 250.000 pelanggan rumah tangga dan bisnis
+                  di Kabupaten Sidoarjo (contoh, sesuaikan data aslinya)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tarif" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">
+            Info Tarif Air Terbaru
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Berikut adalah tarif air bersih per meter kubik (m³) yang berlaku
+            mulai 1 Januari 2024 (sesuaikan tahunnya)
+          </p>
+          <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover"
+          >
+            <div class="bg-blue-100 p-6 text-center">
+              <h3 class="text-xl font-bold text-blue-800">Rumah Tangga</h3>
+            </div>
+            <div class="p-6">
+              <div class="mb-6">
+                <div class="flex justify-between py-3 border-b border-gray-100">
+                  <span class="text-gray-600">0-10 m³</span>
+                  <span class="font-bold">Rp 3.800</span>
+                </div>
+                <div class="flex justify-between py-3 border-b border-gray-100">
+                  <span class="text-gray-600">11-20 m³</span>
+                  <span class="font-bold">Rp 4.500</span>
+                </div>
+                <div class="flex justify-between py-3 border-b border-gray-100">
+                  <span class="text-gray-600">21-30 m³</span>
+                  <span class="font-bold">Rp 5.500</span>
+                </div>
+                <div class="flex justify-between py-3">
+                  <span class="text-gray-600">>30 m³</span>
+                  <span class="font-bold">Rp 7.000</span>
+                </div>
+              </div>
+              <p class="text-sm text-gray-500 mb-4">
+                *Biaya administrasi bulanan Rp 6.000
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover"
+          >
+            <div class="bg-blue-600 p-6 text-center text-white">
+              <h3 class="text-xl font-bold">Usaha</h3>
+            </div>
+            <div class="p-6">
+              <div class="mb-6">
+                <div class="flex justify-between py-3 border-b border-gray-100">
+                  <span class="text-gray-600">0-10 m³</span>
+                  <span class="font-bold">Rp 6.500</span>
+                </div>
+                <div class="flex justify-between py-3 border-b border-gray-100">
+                  <span class="text-gray-600">11-20 m³</span>
+                  <span class="font-bold">Rp 7.800</span>
+                </div>
+                <div class="flex justify-between py-3 border-b border-gray-100">
+                  <span class="text-gray-600">21-30 m³</span>
+                  <span class="font-bold">Rp 8.800</span>
+                </div>
+                <div class="flex justify-between py-3">
+                  <span class="text-gray-600">>30 m³</span>
+                  <span class="font-bold">Rp 10.500</span>
+                </div>
+              </div>
+              <p class="text-sm text-gray-500 mb-4">
+                *Biaya administrasi bulanan Rp 8.500
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 card-hover"
+          >
+            <div class="bg-blue-800 p-6 text-center text-white">
+              <h3 class="text-xl font-bold">Industri</h3>
+            </div>
+            <div class="p-6">
+              <div class="mb-6">
+                <div class="flex justify-between py-3 border-b border-gray-100">
+                  <span class="text-gray-600">0-100 m³</span>
+                  <span class="font-bold">Rp 7.500</span>
+                </div>
+                <div class="flex justify-between py-3 border-b border-gray-100">
+                  <span class="text-gray-600">101-500 m³</span>
+                  <span class="font-bold">Rp 9.000</span>
+                </div>
+                <div class="flex justify-between py-3">
+                  <span class="text-gray-600">>500 m³</span>
+                  <span class="font-bold">Rp 11.000</span>
+                </div>
+              </div>
+              <p class="text-sm text-gray-500 mb-4">
+                *Biaya administrasi bulanan Rp 12.000
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 bg-blue-50 rounded-xl p-6">
+          <div class="flex flex-col md:flex-row items-center">
+            <div
+              class="md:w-1/4 text-center md:text-right md:pr-6 mb-4 md:mb-0"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-12 w-12 text-blue-600 mx-auto"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+            </div>
+            <div class="md:w-3/4">
+              <h4 class="font-bold text-gray-800 mb-2">
+                Perhitungan Tagihan Air
+              </h4>
+              <p class="text-gray-600">
+                Tagihan air dihitung berdasarkan pemakaian bulanan dalam satuan
+                meter kubik (m³). Pembayaran dapat dilakukan via transfer bank,
+                kantor PDAM Delta Tirta Sidoarjo, loket PPOB, atau melalui agen
+                resmi. Masa tenggang pembayaran adalah 14 hari setelah tanggal
+                pencatatan meter.
+              </p>
+              <button
+                class="mt-4 text-blue-600 font-medium hover:text-blue-800 flex items-center"
+              >
+                Download PDF Tarif Lengkap
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 ml-1"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tips" class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">Tips Hemat Air</h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Mari bersama-sama menghemat penggunaan air untuk masa depan yang
+            berkelanjutan
+          </p>
+          <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div
+            class="saving-tip bg-gray-50 rounded-lg overflow-hidden transition-all duration-300"
+          >
+            <div class="p-6 flex items-start">
+              <div class="bg-blue-100 p-3 rounded-full mr-4 saving-tip-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-2">Periksa Kebocoran</h3>
+                <p class="text-gray-600">
+                  Periksa pipa dan keran secara berkala. Kebocoran kecil yang
+                  tidak segera diperbaiki dapat membuang hingga 20 liter air per
+                  hari.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="saving-tip bg-gray-50 rounded-lg overflow-hidden transition-all duration-300"
+          >
+            <div class="p-6 flex items-start">
+              <div class="bg-blue-100 p-3 rounded-full mr-4 saving-tip-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-2">Penggunaan Shower</h3>
+                <p class="text-gray-600">
+                  Gunakan shower dengan aliran rendah dan batasi waktu mandi.
+                  Mandi dengan shower menghemat hingga 3 kali lipat dibanding
+                  gayung.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="saving-tip bg-gray-50 rounded-lg overflow-hidden transition-all duration-300"
+          >
+            <div class="p-6 flex items-start">
+              <div class="bg-blue-100 p-3 rounded-full mr-4 saving-tip-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-2">Matikan Keran</h3>
+                <p class="text-gray-600">
+                  Matikan keran saat menggosok gigi atau mencukur. Ini bisa
+                  menghemat hingga 6 liter air per menit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="saving-tip bg-gray-50 rounded-lg overflow-hidden transition-all duration-300"
+          >
+            <div class="p-6 flex items-start">
+              <div class="bg-blue-100 p-3 rounded-full mr-4 saving-tip-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-2">Cuci Efisien</h3>
+                <p class="text-gray-600">
+                  Gunakan mesin cuci hanya ketika ada cukup pakaian untuk
+                  pengisian penuh. Pilih mode ekonomis jika tersedia.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="saving-tip bg-gray-50 rounded-lg overflow-hidden transition-all duration-300"
+          >
+            <div class="p-6 flex items-start">
+              <div class="bg-blue-100 p-3 rounded-full mr-4 saving-tip-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-2">Siram Cerdas</h3>
+                <p class="text-gray-600">
+                  Siram tanaman di pagi atau sore hari untuk mengurangi
+                  penguapan. Gunakan sistem irigasi tetes untuk efisiensi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="saving-tip bg-gray-50 rounded-lg overflow-hidden transition-all duration-300"
+          >
+            <div class="p-6 flex items-start">
+              <div class="bg-blue-100 p-3 rounded-full mr-4 saving-tip-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-blue-600"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold text-gray-800 mb-2">Tandon Air</h3>
+                <p class="text-gray-600">
+                  Gunakan tandon air untuk menampung air hujan yang dapat
+                  digunakan untuk menyiram tanaman atau mencuci kendaraan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">
+            Kontak & Lokasi Kantor
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            Kami siap melayani Anda dengan sepenuh hati untuk semua kebutuhan
+            air bersih
+          </p>
+          <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row gap-10">
+          <div class="lg:w-1/2">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+              <img
+                src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/eebca150-f1cb-4349-b807-93e85ddfdcc5.png"
+                alt="Gedung kantor PDAM dengan taman depan dan papan nama besar di sisi jalan utama"
+                class="w-full h-64 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">
+                  Kantor Pusat PDAM Delta Tirta Sidoarjo
+                </h3>
+                <div class="space-y-4">
+                  <div class="flex items-start">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6 text-blue-600 mr-3 mt-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                    <div>
+                      <h4 class="font-medium text-gray-800 mb-1">Alamat</h4>
+                      <p class="text-gray-600">
+                        Jl. Pahlawan No. 1, Sidoarjo, Jawa Timur 61214
+                        (sesuaikan alamat asli PDAM Delta Tirta)
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6 text-blue-600 mr-3 mt-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                      />
+                    </svg>
+                    <div>
+                      <h4 class="font-medium text-gray-800 mb-1">Telepon</h4>
+                      <p class="text-gray-600">(031) 8961727</p>
+                      <p class="text-gray-600">
+                        0800-1-8961727 (Layanan Bebas Pulsa / Layanan Aduan 24
+                        Jam)
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6 text-blue-600 mr-3 mt-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      />
+                    </svg>
+                    <div>
+                      <h4 class="font-medium text-gray-800 mb-1">Email</h4>
+                      <p class="text-gray-600">info@deltatirta.co.id</p>
+                      <p class="text-gray-600">pengaduan@deltatirta.co.id</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6 text-blue-600 mr-3 mt-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <div>
+                      <h4 class="font-medium text-gray-800 mb-1">
+                        Jam Operasional
+                      </h4>
+                      <p class="text-gray-600">Senin-Jumat: 07.30-15.00</p>
+                      <p class="text-gray-600">Sabtu: Tutup</p>
+                      <p class="text-gray-600">Minggu & Hari Libur: Tutup</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:w-1/2">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden h-full">
+              <div class="p-6 h-full">
+                <h3 class="text-xl font-bold text-gray-800 mb-6">
+                  Kirim Pesan kepada Kami
+                </h3>
+                <form class="space-y-4">
+                  <div>
+                    <label
+                      for="name"
+                      class="block text-gray-700 font-medium mb-2"
+                      >Nama Lengkap</label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for="email"
+                      class="block text-gray-700 font-medium mb-2"
+                      >Alamat Email</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for="phone"
+                      class="block text-gray-700 font-medium mb-2"
+                      >Nomor Telepon</label
+                    >
+                    <input
+                      type="tel"
+                      id="phone"
+                      class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    />
+                  </div>
+                  <div>
+                    <label
+                      for="subject"
+                      class="block text-gray-700 font-medium mb-2"
+                      >Subjek</label
+                    >
+                    <select
+                      id="subject"
+                      class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    >
+                      <option value="">Pilih subjek</option>
+                      <option value="pengaduan">Pengaduan</option>
+                      <option value="informasi">Permintaan Informasi</option>
+                      <option value="sambungan">
+                        Permohonan Sambungan Baru
+                      </option>
+                      <option value="lainnya">Lainnya</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label
+                      for="message"
+                      class="block text-gray-700 font-medium mb-2"
+                      >Pesan</label
+                    >
+                    <textarea
+                      id="message"
+                      rows="4"
+                      class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                    ></textarea>
+                  </div>
+                  <button
+                    type="submit"
+                    class="bg-blue-600 text-white font-bold px-6 py-3 rounded-lg hover:bg-blue-700 transition w-full"
+                  >
+                    Kirim Pesan
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12">
+          <h3 class="text-xl font-bold text-gray-800 mb-6 text-center">
+            Kantor Cabang
+          </h3>
+          <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-xl shadow-md p-6">
+              <h4 class="font-bold text-gray-800 mb-2">
+                PDAM Delta Tirta Cabang Sidoarjo Kota
+              </h4>
+              <p class="text-gray-600 mb-3">
+                Jl. Teuku Umar No. 1, Sidoarjo (contoh)
+              </p>
+              <p class="text-gray-600">
+                <span class="font-medium">Telepon:</span> (031) 896xxxx
+              </p>
+            </div>
+            <div class="bg-white rounded-xl shadow-md p-6">
+              <h4 class="font-bold text-gray-800 mb-2">
+                PDAM Delta Tirta Cabang Krian
+              </h4>
+              <p class="text-gray-600 mb-3">
+                Jl. Raya Krian No. 50, Krian, Sidoarjo (contoh)
+              </p>
+              <p class="text-gray-600">
+                <span class="font-medium">Telepon:</span> (031) 898xxxx
+              </p>
+            </div>
+            <div class="bg-white rounded-xl shadow-md p-6">
+              <h4 class="font-bold text-gray-800 mb-2">
+                PDAM Delta Tirta Cabang Porong
+              </h4>
+              <p class="text-gray-600 mb-3">
+                Jl. Raya Porong No. 100, Porong, Sidoarjo (contoh)
+              </p>
+              <p class="text-gray-600">
+                <span class="font-medium">Telepon:</span> (031) 345xxxx
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-blue-900 text-white py-12">
+      <div class="container mx-auto px-4">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <div class="flex items-center mb-4">
+              <img
+                src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/559f7099-93dd-4841-be33-2cd26453f940.png"
+                alt="Logo kecil PDAM dengan tetesan air berwarna putih"
+                class="h-12 w-12 mr-3"
+              />
+              <h3 class="text-xl font-bold">PDAM Delta Tirta Sidoarjo</h3>
+            </div>
+            <p class="text-blue-200">
+              Menyediakan air bersih berkualitas untuk masyarakat Kabupaten
+              Sidoarjo sejak 1980 (sesuaikan tahunnya).
+            </p>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg mb-4">Tautan Cepat</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#profile"
+                  class="text-blue-200 hover:text-white transition"
+                  >Profil Perusahaan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#tarif"
+                  class="text-blue-200 hover:text-white transition"
+                  >Tarif Air</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#tips"
+                  class="text-blue-200 hover:text-white transition"
+                  >Tips Hemat Air</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#kontak"
+                  class="text-blue-200 hover:text-white transition"
+                  >Kontak Kami</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg mb-4">Layanan Pelanggan</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="#" class="text-blue-200 hover:text-white transition"
+                  >Pendaftaran Sambungan</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-blue-200 hover:text-white transition"
+                  >Cek Tagihan</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-blue-200 hover:text-white transition"
+                  >Pengaduan</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-blue-200 hover:text-white transition"
+                  >FAQ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg mb-4">Media Sosial</h4>
+            <div class="flex space-x-4">
+              <a
+                href="https://www.facebook.com/PDAMDeltaTirtaSidoarjo"
+                target="_blank"
+                class="bg-blue-800 h-10 w-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/pdamdeltatirtasda"
+                target="_blank"
+                class="bg-blue-800 h-10 w-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.youtube.com/@PDAMDeltaTirtaSDA"
+                target="_blank"
+                class="bg-blue-800 h-10 w-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200"
+        >
+          <p>© 2023 PDAM Delta Tirta Sidoarjo. Seluruh hak cipta dilindungi.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle functionality
+      document
+        .querySelector("button.md\\:hidden")
+        .addEventListener("click", function () {
+          const nav = document.querySelector("nav.hidden");
+          if (nav) {
+            nav.classList.toggle("hidden");
+            nav.classList.toggle("block");
+          }
+        });
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+
+      // Form submission handling
+      const contactForm = document.querySelector("form");
+      if (contactForm) {
+        contactForm.addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert(
+            "Terima kasih atas pesan Anda. Kami akan segera menghubungi Anda kembali."
+          );
+          this.reset();
+        });
+      }
+    </script>
+  </body>
+</html>
